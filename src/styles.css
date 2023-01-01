@@ -1,1 +1,132 @@
 /* You can add global styles to this file, and also import other style files */
+/*
+	BLUE: #00b6f1; 
+	GREY: #f3f3f5
+*/
+
+body, html {
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	background-attachment: fixed;
+	color: white;
+}
+
+.vertical-center {
+	min-height: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+body {
+	background: #ab435d;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #373B44, #ab435d);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #373B44, #ab435d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	font-family: 'Titillium Web', sans-serif;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: $background;
+}
+
+
+h1 {
+	font-size: 4rem;
+}
+
+
+.portfolio-img {
+
+	margin-bottom: 5px
+
+	/*-webkit-box-shadow: 0px 7px 10px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 7px 10px -1px rgba(0,0,0,0.75);
+	box-shadow: 0px 7px 10px -1px rgba(0,0,0,0.75);*/
+
+}
+
+#portfolio {
+	background-color: #ab435d;
+	padding-bottom: 50px;
+}
+
+h4 {
+	margin-top: -10px;
+	margin-bottom: 20px;
+}
+
+#prof {
+	width: 150px;
+	border-radius: 100%;
+/*	border: 3px solid #00b6f1;
+*/}
+
+.green-bold {
+	font-weight: 700;
+	color: #ab435d;
+}
+
+.grey-bold {
+	font-weight: 700;
+	color: #f3f3f5;
+}
+
+#social-row a {
+	color: #fff !important;
+}
+
+.btn-primary {
+	background-color: #373B44;
+	background-color: rgba(0,0,0,0);
+	color: white;
+	width: 200px;
+	border-radius: 0;
+	border: 1px solid white;
+	margin: 0 10px 10px 10px;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:target,
+.btn-primary:active:focus {
+	background-color: white;
+	border-color: white;
+	color: #ab435d;
+	box-shadow: none;
+}
+
+.btn-primary:focus {
+	box-shadow: none;
+}
+
+#button-row {
+	margin-top: 30px;
+}
+
+.modal-info {
+	margin-top: -5px;
+}
+
+.modal-icon {
+	color: #ab435d;
+}
+
+#contactModal {
+	color: black;
+}
+
+@media screen and (max-width: 1200px) {
+	.small-center {
+		text-align: center;
+	}
+}
