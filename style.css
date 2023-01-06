@@ -20,9 +20,9 @@ body, html {
 }
 
 body {
-	background: #ab435d;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to bottom, #373B44, #ab435d);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to bottom, #373B44, #ab435d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #292224;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #373B44, #292224);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #373B44, #292224); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 	font-family: 'Titillium Web', sans-serif;
 }
@@ -56,7 +56,7 @@ h1 {
 }
 
 #portfolio {
-	background-color: #ab435d;
+	background-color: #292224;
 	padding-bottom: 50px;
 }
 
@@ -73,7 +73,7 @@ h4 {
 
 .green-bold {
 	font-weight: 700;
-	color: #ab435d;
+	color: #292224;
 }
 
 .grey-bold {
@@ -101,7 +101,7 @@ h4 {
 .btn-primary:active:focus {
 	background-color: white;
 	border-color: white;
-	color: #ab435d;
+	color: #292224;
 	box-shadow: none;
 }
 
@@ -118,7 +118,7 @@ h4 {
 }
 
 .modal-icon {
-	color: #ab435d;
+	color: #292224;
 }
 
 #contactModal {
